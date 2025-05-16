@@ -30,7 +30,7 @@ void setup() {
     Serial.println("Connessione stabilita!");
 
     // Invia un dato intero (es: 42)
-    int numero = 42;
+    int numero = 20;
     client.println(numero);  // oppure client.print(numero); per non inviare \n
   } else {
     Serial.println("Errore nella connessione al server.");
